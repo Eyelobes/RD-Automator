@@ -187,6 +187,11 @@ The SQLite database is stored at `DB_PATH` inside the container (`/data/rd-autom
 volumes:
   - /your/host/path:/data
 ```
+## Support
+
+If this project saved you time, consider buying me a coffee!
+
+[![Cash App](https://img.shields.io/badge/Cash%20App-$ABax2-00C244?style=for-the-badge&logo=cashapp&logoColor=white)](https://cash.app/$ABax2)
 
 ---
 
