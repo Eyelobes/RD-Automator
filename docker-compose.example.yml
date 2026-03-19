@@ -1,0 +1,23 @@
+version: "3.8"
+
+services:
+  rd-automator:
+    image: rd-automator:latest
+    container_name: rd-automator
+    restart: unless-stopped
+    build: .
+    environment:
+      - RD_API_KEY=your_real_debrid_api_key
+      - MYJ_EMAIL=your_myjdownloader_email
+      - MYJ_PASSWORD=your_myjdownloader_password
+      - MYJ_DEVICE=JDownloader@Docker
+      - MAX_SIZE_GB_MOVIE=30
+      - MAX_SIZE_GB_TV=6
+      - MIN_QUALITY_MOVIE=2160p
+      - MIN_QUALITY_TV=1080p
+      - TZ=America/New_York
+      - TMDB_API_KEY=your_tmdb_api_key_optional
+    ports:
+      - "8888:8888"
+    volumes:
+      - /your/persistent/data/path:/data
