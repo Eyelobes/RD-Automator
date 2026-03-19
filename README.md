@@ -2,7 +2,8 @@
 
 A self-hosted webhook receiver that automatically finds and downloads movies and TV shows via [Real-Debrid](https://real-debrid.com) when triggered by Radarr or Sonarr. Features a built-in web dashboard with TMDB poster art, quality badges, and persistent download history.
 
-![Dashboard Preview](https://i.imgur.com/placeholder.png)
+![Movies Dashboard](movies.png)
+![TV Dashboard](TV.png)
 
 ## Features
 
