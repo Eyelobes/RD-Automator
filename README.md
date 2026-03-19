@@ -44,7 +44,7 @@ A self-hosted webhook receiver that automatically finds and downloads movies and
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/yourusername/rd-automator.git
+git clone https://github.com/Eyelobes/rd-automator.git
 cd rd-automator
 ```
 
