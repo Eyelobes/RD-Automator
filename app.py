@@ -275,7 +275,7 @@ def get_quality_rank(title):
     return 0
 
 def get_size_gb(title):
-    match = re.search(r'([\d.]+)\s*(GB|MB)', title, re.IGNORECASE)
+    match = re.search(r'(\d+\.?\d*)\s*(GB|MB)', title, re.IGNORECASE)
     if match:
         size = float(match.group(1))
         unit = match.group(2).upper()
